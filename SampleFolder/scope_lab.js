@@ -30,5 +30,22 @@ show();
     
 //console.log(functionLet); // Throws ReferenceError
 //console.log(functionVar); // Throws ReferenceError
-console.log(functionConst); // Throws ReferenceError
-    
+//console.log(functionConst); // Throws ReferenceError
+
+{
+    var var_name = "ali from var"
+    let let_name = "ali from let"
+    const const_name = "ali from const"
+
+    console.log(var_name)
+    console.log(let_name)
+    console.log(const_name)
+}
+
+var var_name = "ali from var_2"
+let let_name = "ali from let_2"
+const const_name = "ali from const_2"
+
+console.log(var_name)
+console.log(let_name)
+console.log(const_name)
