@@ -16,12 +16,12 @@ class ContentRating extends Component {
                 like: currentState.like + 1,
                 totalRatings: currentState.totalRatings + 1,
             }));
-            if (this.totalRatings != 0 && this.like != 0) {
+            if (this.totalRatings !=0 && this.like !=0) {
                 this.setState((prevSt) => ({
                     likesPercent: Math.round((prevSt.like/prevSt.totalRatings)*100),
                 }));
             };
-            if (this.totalRatings != 0 && this.dislike != 0) {
+            if (this.totalRatings !=0 && this.dislike !=0) {
                 this.setState((prevSt) => ({
                     dislikesPercent: Math.round((prevSt.dislike/prevSt.totalRatings)*100),
                 }));
@@ -33,12 +33,12 @@ class ContentRating extends Component {
                 dislike: prevState.dislike + 1,
                 totalRatings: prevState.totalRatings + 1
             }));
-            if (this.totalRatings != 0 && this.like != 0) {
+            if (this.totalRatings !=0 && this.like !=0) {
                 this.setState((prevSt) => ({
                     likesPercent: Math.round((prevSt.like/prevSt.totalRatings)*100),
                 }));
             };
-            if (this.totalRatings != 0 && this.dislike != 0) {
+            if (this.totalRatings !=0 && this.dislike !=0) {
                 this.setState((prevSt) => ({
                     dislikesPercent: Math.round((prevSt.dislike/prevSt.totalRatings)*100),
                 }));
